@@ -62,17 +62,29 @@
         }
 
         .card{
-            width: 250px;
-            background-color: white;
-            
+            width: 500px;
+            background-color: black;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 35px;
+            border:#62e7ff, double;
         }
 
         .card img{
-height: 180px;
-width: 120px;
+
+width: 250px;
+border-radius: 10px;
         }
 
+        .card p{
+            color: #62e7ff;
+            
+        }
 
+        .card h2{
+color: white;
+
+        }
         .container{
             display: flex;
             justify-content: center;
