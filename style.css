@@ -49,6 +49,12 @@
             color: black;
         }
 
+        nav hr{
+             border: none;
+             height: 1px;
+             background-color:#62e7ff
+        }
+
         nav a{
             color: white;
             font-size: 18px;
@@ -89,4 +95,18 @@ color: white;
             display: flex;
             justify-content: center;
             gap: 30px;
+        }
+
+        #aboutus hr{
+            background-color: #62e7ff;
+            margin: 50px;
+            
+        }
+
+        h3{
+            color: white;
+        }
+
+        .underlined-text{
+            text-decoration: underline;
         }
